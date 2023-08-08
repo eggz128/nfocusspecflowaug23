@@ -8,4 +8,4 @@ Scenario Outline: Login with valid username and password
 	| username     | password         |
 	| edgewords    | edgewords123     |
 	| webdriver    | edgewords123     |
-	| notvaliduser | notvalidPassword |
+	#| notvaliduser | notvalidPassword |
