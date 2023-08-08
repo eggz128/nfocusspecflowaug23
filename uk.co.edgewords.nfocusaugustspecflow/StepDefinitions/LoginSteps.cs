@@ -33,6 +33,7 @@ namespace uk.co.edgewords.nfocusaugustspecflow.StepDefinitions
         {
             LoginPOM loginPage = new LoginPOM(_driver);
             loginPage.Login(username, password); //a comment
+            //Another comment
         }
 
         [Then(@"I am logged in successfully")]
