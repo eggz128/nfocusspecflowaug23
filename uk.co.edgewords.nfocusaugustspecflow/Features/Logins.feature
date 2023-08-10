@@ -1,4 +1,5 @@
-﻿Feature: Logins
+﻿@GUI
+Feature: Logins
 
 Scenario Outline: Login with valid username and password
 	Given I am on the login page

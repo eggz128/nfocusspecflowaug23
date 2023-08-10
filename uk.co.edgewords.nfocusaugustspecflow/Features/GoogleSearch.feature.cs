@@ -22,13 +22,15 @@ namespace uk.co.edgewords.nfocusaugustspecflow.Features
     [NUnit.Framework.TestFixtureAttribute()]
     [NUnit.Framework.DescriptionAttribute("Google Search")]
     [NUnit.Framework.CategoryAttribute("RunMe")]
+    [NUnit.Framework.CategoryAttribute("GUI")]
     public partial class GoogleSearchFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private static string[] featureTags = new string[] {
-                "RunMe"};
+                "RunMe",
+                "GUI"};
         
 #line 1 "GoogleSearch.feature"
 #line hidden

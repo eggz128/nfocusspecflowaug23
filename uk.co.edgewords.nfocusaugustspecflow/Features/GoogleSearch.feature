@@ -1,4 +1,4 @@
-﻿@RunMe
+﻿@RunMe @GUI
 Feature: Google Search
 
 
