@@ -77,7 +77,6 @@ namespace uk.co.edgewords.nfocusaugustspecflow.Features
         [NUnit.Framework.DescriptionAttribute("Login with valid username and password")]
         [NUnit.Framework.TestCaseAttribute("edgewords", "edgewords123", null)]
         [NUnit.Framework.TestCaseAttribute("webdriver", "edgewords123", null)]
-        [NUnit.Framework.TestCaseAttribute("notvaliduser", "notvalidPassword", null)]
         public void LoginWithValidUsernameAndPassword(string username, string password, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;

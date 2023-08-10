@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+[assembly: Parallelizable(ParallelScope.Fixtures)]
+[assembly: LevelOfParallelism(8)]
 namespace uk.co.edgewords.nfocusaugustspecflow.StepDefinitions
 {
     [Binding]
